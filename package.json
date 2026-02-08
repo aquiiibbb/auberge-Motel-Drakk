@@ -1,4 +1,5 @@
 {
+  "_force_test": "yes",
   "name": "qr-p",
   "version": "0.1.0",
   "private": true,
