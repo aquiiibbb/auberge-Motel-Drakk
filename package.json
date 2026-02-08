@@ -1,5 +1,4 @@
 {
-  "_force_test": "yes",
   "name": "qr-p",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +27,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
