@@ -83,9 +83,9 @@ const FeedbackSurvey = () => {
         </p>
 
         <div className="contact-info">
-          <div>300 I-20, Marshall, TX</div>
-          <div>+1 923-471-8277</div>
-          <div>https://American Star Inn - Munday.com</div>
+          <div> 851 E G St, Munday, TX 76371</div>
+          <div> (940) 422-4301. </div>
+          <div>mondayhotels.com.</div>
         </div>
 
         <div className="powered-by">
