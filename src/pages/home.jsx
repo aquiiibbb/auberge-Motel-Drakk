@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './home.css';
 import { FaHandPointUp } from "react-icons/fa";
-import image from '../assest/URL QR Code.jpeg'
+import image from '../assest/URL QR Code.png'
 import imf from "../assest/lg.jpeg"
 
 export default function Home() {
