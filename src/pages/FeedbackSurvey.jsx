@@ -38,7 +38,7 @@ const FeedbackSurvey = () => {
           <img
             src={imf}
             alt="Logo Xpress Inn"
-          style={{height:"210px", width:"205px",paddingTop:"5px"}}
+          style={{height:"220px", width:"205px",paddingTop:"5px"}}
 
           />
         </div>
