@@ -10,8 +10,8 @@ const ReviewRedirect = () => {
   const [countdown, setCountdown] = useState(8);
 
   // Real links - replace with actual hotel IDs
-  const googleLink = 'https://www.google.com/search?client=ms-android-samsung-ga-rev1&hs=r8dU&sca_esv=b74c49400e4de940&sxsrf=ANbL-n5h3Iu59qlj0amNWNvh_RkjkusLMQ:1770540817941&q=motel+munday+reviews&uds=ALYpb_mtyJ-7P3B8Ql2PDebQgmCif8_bzFd1GYvnRvsTC5YO4nmXk4j2qI7ALeBduvFTXXF-iMU9I9q4x3V14_gREEM25xmE2tmz_-VJiLreVZOLWK9PWEDrK7S7eUUXA1cTCu-nJ-IgoquKXY6bkw2djhWponyA9rMZ_gEix7OeVj3p02d4Vl9bhyIFR-Fup7UIkzi40RaFVU69csnyHub9xpvXq-2fMkkLCYqsGHGChFXRhjDPS4qIWsntt8JKzkGXxtkEZEz_QuycmIgLhYjo-Wx4vLMT8ekKSjdWGtmsYtiUgQJDwcODLHOrJEFBm5gLWAGIS2kBifVDcUrjHdJXjHfTlxpwuiW7LPf0GGVHs2wkjIsH5fR4wclV5SrfaimUfCI5c0Hg2859JA0AklHyXPIxlHAH8QEVfkdORT4IletdCd2DaGIy1BhyjfziQqeuMq3Q5HJyFlpe5lBJwSD-nVQWFoV0Sr8wK2myN2TF3m_A0QEH_1j2mtDCNQoRNaaaeEBob0MxLLD3rfxrwtBa-k9Pi8Drfg&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x8a_6uFdPJsrUmAYo69TYZivjsDvC15TA8eOW3eOWmvB41XqMN3iJuSjyylR08x3X8a7fvdoERaxhJaUa7896jnrapHU&sa=X&sqi=2&ved=2ahUKEwiSqo3EwsmSAxUnRCoJHVtGJ8IQk8gLegQIHRAB&ictx=1&biw=411&bih=775&dpr=2.63#ebo=1';
-  const tripAdvisorLink = 'https://www.tripadvisor.in/Hotel_Review-g56332-d17693175-Reviews-American_Star_Inn-Munday_Texas.html';
+  const googleLink = 'Auberg Google - google.com/travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,73249147,121522132&hl=en-IN&gl=in&ssta=1&q=auberge+motel+drakkar&ts=CAEaRwopEicyJTB4NGNjNjRiMGViZGNiNDE5ZDoweDM0MzBjZjlkYmI1ZGVhNmMSGhIUCgcI6g8QAhgJEgcI6g8QAhgKGAEyAhAA&qs=CAEyE0Nnb0k3TlQzMnR2enM1ZzBFQUU4AkIJCWzqXbudzzA0QgkJbOpdu53PMDQ&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:247458';
+  const tripAdvisorLink = 'Auberg Trip Advisor - https://www.tripadvisor.in/Hotel_Review-g155034-d12295142-Reviews-Auberge_motel_drakkar-Shawinigan_Quebec.html';
 
   // Auto redirect countdown
   useEffect(() => {
