@@ -9,10 +9,10 @@ const FeedbackSurvey = () => {
 
   // ✅ Cleaned Google Review link (removed leading space)
   const googleReviewLink =
-    'https://www.google.com/travel/search?q=Xpress%20Inn%20%26%20Extended%20Stay%20Marshall%20TX%20Near%20I-20%20E%20%26%20US%20Hwy%2059%2C%20300%20I-20%2C%20Marshall%2C%20TX%2075672%2C%20United%20States&ap=ugEHcmV2aWV3cw';
+    'Auberg Google - google.com/travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,72958624,73059275,73064764,73249147,121522132&hl=en-IN&gl=in&ssta=1&q=auberge+motel+drakkar&ts=CAEaRwopEicyJTB4NGNjNjRiMGViZGNiNDE5ZDoweDM0MzBjZjlkYmI1ZGVhNmMSGhIUCgcI6g8QAhgJEgcI6g8QAhgKGAEyAhAA&qs=CAEyE0Nnb0k3TlQzMnR2enM1ZzBFQUU4AkIJCWzqXbudzzA0QgkJbOpdu53PMDQ&ap=ugEHcmV2aWV3cw&ictx=111&ved=1t:247458';
 
   const tripAdvisorLink =
-    'https://www.tripadvisor.com/Hotel_Review-g56236-d28804568-Reviews-Xpress_Inn_Extended_Stays-Marshall_Texas.html';
+    'Auberg Trip Advisor - https://www.tripadvisor.in/Hotel_Review-g155034-d12295142-Reviews-Auberge_motel_drakkar-Shawinigan_Quebec.html';
 
   const handleRating = (value) => {
     setRating(value);
