@@ -37,13 +37,13 @@ const FeedbackSurvey = () => {
         <div className="logo-section">
           <img
             src={imf}
-            alt="Xpress Inn Logo"
+            alt="Logo Xpress Inn"
              style={{height:"190px", width:"210px",paddingTop:"5px"}}
           />
         </div>
 
         <h2 className="hotel-name">Auberge Motel Drakkar</h2>
-        <h3 className="question">How was your stay?</h3>
+        <h3 className="question">Comment s'est passé votre séjour ?</h3>
 
         <div className="rating-section">
           <button
@@ -55,7 +55,7 @@ const FeedbackSurvey = () => {
             <div className="emoji-circle happy-circle">
               <span className="emoji">😊</span>
             </div>
-            <span className="emoji-label">Great!</span>
+            <span className="emoji-label">Super !</span>
           </button>
 
           <button
@@ -67,29 +67,29 @@ const FeedbackSurvey = () => {
             <div className="emoji-circle sad-circle">
               <span className="emoji">😞</span>
             </div>
-            <span className="emoji-label">Not Good</span>
+            <span className="emoji-label">Pas bon</span>
           </button>
         </div>
 
         {rating && (
           <div className="loading-message">
             <div className="spinner" />
-            <p>Thank you for your feedback...</p>
+            <p>Merci pour votre retour...</p>
           </div>
         )}
 
         <p className="appreciation-text">
-          We appreciate your business. We'd love to hear what you think about your recent visit.
+          Nous apprécions votre visite. Nous aimerions savoir ce que vous pensez de votre séjour récent.
         </p>
 
         <div className="contact-info">
-          <div>4500 Boulevard de Shawinigan-Sud, Shawinigan-Sud, Quebec G9N 6T5, Canada</div>
+          <div>4500 Boulevard de Shawinigan-Sud, Shawinigan-Sud, Québec G9N 6T5, Canada</div>
           <div>+1 819-536-2664 </div>
           <div>https://www.aubergemoteldrakkar.ca/</div>
         </div>
 
         <div className="powered-by">
-          Powered by <span className="guesttouch">Auberge Motel Drakkar</span>
+          Propulsé par <span className="guesttouch">Auberge Motel Drakkar</span>
         </div>
       </div>
     </div>

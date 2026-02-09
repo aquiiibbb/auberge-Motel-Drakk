@@ -22,7 +22,7 @@ export default function Home() {
                 })
                 .catch(err => {
                     console.error("Camera access denied:", err);
-                    alert("Camera access needed for QR scanning");
+                    alert("Accès à la caméra nécessaire pour scanner le QR code");
                     setShowScanner(false);
                 });
         }
@@ -32,8 +32,8 @@ export default function Home() {
         return (
             <div className="scanner-container">
                 <video ref={videoRef} autoPlay style={{ width: '100%', height: '300px' }} />
-                <button onClick={() => setShowScanner(false)}>Close Scanner</button>
-                <button onClick={() => navigate('/FeedbackSurvey')}>Go to About</button>
+                <button onClick={() => setShowScanner(false)}>Fermer le scanner</button>
+                <button onClick={() => navigate('/FeedbackSurvey')}>Aller à À propos</button>
             </div>
         );
     }
@@ -46,15 +46,15 @@ export default function Home() {
                         <img
                             style={{height:"190px", width:"205px",paddingTop:"5px"}}
                             src={imf}
-                            alt="Xpress Inn Logo"
+                            alt="Logo Xpress Inn"
                         />
                         <h5 className="hotel-nam">Auberge Motel Drakkar</h5>
 
                     </div>
 
                     <h4 className="main-text">
-                        Please Leave a Quick<br />
-                        Feedback or Review
+                        Veuillez laisser un bref<br />
+                        commentaire ou avis
                     </h4>
 
                     <div className="review-icons">
@@ -80,13 +80,13 @@ export default function Home() {
                         <div className="qr-code">
                             <img
                                 src={image}
-                                alt="QR Code for Reviews"
+                                alt="QR Code pour les avis"
                                 className="qr-image"
                             />
                         </div>
                         <FaHandPointUp />
                         <div className="qr-text">
-                            Scan me on your phone
+                            Scannez-moi sur votre téléphone
                         </div>
                     </div>
                 </div>

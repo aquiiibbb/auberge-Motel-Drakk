@@ -29,26 +29,26 @@ const PrivateFeedback = () => {
 
   const handleSubmit = () => {
     if (!formData.name.trim()) {
-      alert('Please enter your name');
+      alert('Veuillez entrer votre nom');
       return;
     }
     if (!formData.email.trim()) {
-      alert('Please enter your email');
+      alert('Veuillez entrer votre email');
       return;
     }
     if (!formData.contact.trim()) {
-      alert('Please enter your contact number');
+      alert('Veuillez entrer votre numéro de contact');
       return;
     }
     if (!formData.message.trim() && !formData.feedback.trim()) {
-      alert('Please enter your message or feedback');
+      alert('Veuillez entrer votre message ou vos commentaires');
       return;
     }
 
     // Here you can save to database
     console.log('Form Data:', formData);
     
-    alert('Thank you for your feedback! We will work on improving.');
+    alert('Merci pour votre retour ! Nous travaillerons à l’amélioration.');
     navigate('/');
   };
 
@@ -80,24 +80,24 @@ const PrivateFeedback = () => {
         </div>
 
         <h2 style={{ textAlign: 'center', color: '#2c3e50', marginBottom: '10px' }}>
-          We're sorry to hear that!
+          Nous sommes désolés de l’apprendre !
         </h2>
         
         <p style={{ textAlign: 'center', color: '#7f8c8d', marginBottom: '30px' }}>
-          Your feedback helps us improve. Please tell us what went wrong.
+          Vos commentaires nous aident à nous améliorer. Veuillez nous dire ce qui n’a pas fonctionné.
         </p>
 
         {/* Name Input */}
         <div style={{ marginBottom: '20px' }}>
           <label style={{ display: 'block', marginBottom: '10px', fontWeight: 'bold' }}>
-            Name *
+            Nom *
           </label>
           <input 
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
-            placeholder="Enter your name"
+            placeholder="Entrez votre nom"
             style={{
               width: '100%',
               padding: '10px',
@@ -119,7 +119,7 @@ const PrivateFeedback = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="Enter your email"
+            placeholder="Entrez votre email"
             style={{
               width: '100%',
               padding: '10px',
@@ -134,14 +134,14 @@ const PrivateFeedback = () => {
         {/* Contact No Input */}
         <div style={{ marginBottom: '20px' }}>
           <label style={{ display: 'block', marginBottom: '10px', fontWeight: 'bold' }}>
-            Contact No *
+            Numéro de contact *
           </label>
           <input 
             type="tel"
             name="contact"
             value={formData.contact}
             onChange={handleChange}
-            placeholder="Enter your contact number"
+            placeholder="Entrez votre numéro de contact"
             style={{
               width: '100%',
               padding: '10px',
@@ -153,9 +153,6 @@ const PrivateFeedback = () => {
           />
         </div>
 
-        {/* Star Rating */}
-       
-
         {/* Message Textarea */}
         <div style={{ marginBottom: '20px' }}>
           <label style={{ display: 'block', marginBottom: '10px', fontWeight: 'bold' }}>
@@ -165,7 +162,7 @@ const PrivateFeedback = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            placeholder="Please describe your experience..."
+            placeholder="Veuillez décrire votre expérience..."
             style={{
               width: '100%',
               height: '100px',
@@ -178,8 +175,6 @@ const PrivateFeedback = () => {
             }}
           />
         </div>
-
-        
 
         {/* Submit Button */}
         <button 
@@ -200,7 +195,7 @@ const PrivateFeedback = () => {
           onMouseOver={(e) => e.target.style.transform = 'scale(1.02)'}
           onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
         >
-          Submit
+          Envoyer
         </button>
 
         <div style={{ 
@@ -212,11 +207,11 @@ const PrivateFeedback = () => {
           borderRadius: '8px',
           marginBottom: '20px'
         }}>
-          🔒 Your feedback is private and will only be seen by our management team.
+          🔒 Vos commentaires sont privés et ne seront visibles que par notre équipe de gestion.
         </div>
 
-        <div style={{ textAlign: 'center', fontSize: '12px',  }}>
-          Powered by <span style={{ color: '#e74c3c' }}>Auberge Motel Drakkar</span>
+        <div style={{ textAlign: 'center', fontSize: '12px' }}>
+          Propulsé par <span style={{ color: '#e74c3c' }}>Auberge Motel Drakkar</span>
         </div>
       </div>
     </div>

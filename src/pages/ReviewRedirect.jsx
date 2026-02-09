@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './happy.css';
-import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
+import { FaHandPointDown } from "react-icons/fa";
+
+const ReviewRedirect = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [selectedPlatform, setSelectedPlatform] = useState(null);
@@ -40,7 +42,7 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
       navigate('/thank-you', { 
         state: { 
           type: 'review',
-          message: 'Thank you for leaving a Google review! Your feedback helps other travelers.'
+          message: 'Merci d’avoir laissé un avis Google ! Vos commentaires aident les autres voyageurs.'
         }
       });
     }, 1500);
@@ -60,7 +62,7 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
       navigate('/thank-you', { 
         state: { 
           type: 'review',
-          message: 'Thank you for leaving a TripAdvisor review! Your feedback is valuable.'
+          message: 'Merci d’avoir laissé un avis sur TripAdvisor ! Vos commentaires sont précieux.'
         }
       });
     }, 1500);
@@ -109,11 +111,11 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
         </div>
         
         {/* Main Content */}
-        <h2>Thank You!</h2>
-        <p className="subtitle">We're thrilled you had a great stay! 🎉</p>
+        <h2>Merci !</h2>
+        <p className="subtitle">Nous sommes ravis que votre séjour se soit bien passé ! 🎉</p>
         
         <p className="description">
-          Would you mind sharing your experience? Your review helps us improve and helps other travelers make informed decisions.
+          Pourriez-vous partager votre expérience ? Votre avis nous aide à nous améliorer et aide les autres voyageurs à prendre des décisions éclairées.
         </p>
         <p style={{fontSize:"50px",color:"#FFD700"}}><FaHandPointDown /></p>                     
         
@@ -133,8 +135,8 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
               </svg>
             </div>
             <div className="btn-content">
-              <div className="btn-title">Google Reviews</div>
-              <div className="btn-subtitle">Share on Google Maps</div>
+              <div className="btn-title">Avis Google</div>
+              <div className="btn-subtitle">Partager sur Google Maps</div>
             </div>
             <div className="btn-arrow">→</div>
           </button>
@@ -153,7 +155,7 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
             </div>
             <div className="btn-content">
               <div className="btn-title">TripAdvisor</div>
-              <div className="btn-subtitle">Share your experience</div>
+              <div className="btn-subtitle">Partager votre expérience</div>
             </div>
             <div className="btn-arrow">→</div>
           </button>
@@ -163,21 +165,18 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
         {selectedPlatform && (
           <div className="loading-message">
             <div className="spinner"></div>
-            <p>Opening {selectedPlatform === 'google' ? 'Google Reviews' : 'TripAdvisor'}...</p>
+            <p>Ouverture de {selectedPlatform === 'google' ? 'Avis Google' : 'TripAdvisor'}...</p>
           </div>
         )}
         
-        {/* Action Buttons */}
-       
-        
         {/* Footer */}
         <div className="contact-info">
-          <div>Quebec G9N 6T5, Canada • +18193172613</div>
+          <div>Québec G9N 6T5, Canada • +18193172613</div>
           <div>https://www.aubergemoteldrakkar.ca/</div>
         </div>
         
         <div className="powered-b">
-          Powered by <span className="guesttouch">Auberge Motel Drakkar</span>
+          Propulsé par <span className="guesttouch">Auberge Motel Drakkar</span>
         </div>
       </div>
     </div>
