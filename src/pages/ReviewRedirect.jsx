@@ -172,12 +172,12 @@ import { FaHandPointDown } from "react-icons/fa";const ReviewRedirect = () => {
         
         {/* Footer */}
         <div className="contact-info">
-          <div>300 / 20 • +19234718277</div>
-          <div>https://xpressinnmarshall.com/</div>
+          <div>Quebec G9N 6T5, Canada • +18193172613</div>
+          <div>https://www.aubergemoteldrakkar.ca/</div>
         </div>
         
         <div className="powered-b">
-          Powered by <span className="guesttouch">American StarInn</span>
+          Powered by <span className="guesttouch">Auberge Motel Drakkar</span>
         </div>
       </div>
     </div>

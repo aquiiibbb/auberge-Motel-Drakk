@@ -216,7 +216,7 @@ const PrivateFeedback = () => {
         </div>
 
         <div style={{ textAlign: 'center', fontSize: '12px',  }}>
-          Powered by <span style={{ color: '#e74c3c' }}>American StarInn</span>
+          Powered by <span style={{ color: '#e74c3c' }}>Auberge Motel Drakkar</span>
         </div>
       </div>
     </div>

@@ -42,7 +42,7 @@ const FeedbackSurvey = () => {
           />
         </div>
 
-        <h2 className="hotel-name">American Star Inn - Munday</h2>
+        <h2 className="hotel-name">Auberge Motel Drakkar</h2>
         <h3 className="question">How was your stay?</h3>
 
         <div className="rating-section">
@@ -83,13 +83,13 @@ const FeedbackSurvey = () => {
         </p>
 
         <div className="contact-info">
-          <div> 851 E G St, Munday, TX 76371</div>
-          <div> (940) 422-4301. </div>
-          <div>mondayhotels.com.</div>
+          <div>4500 Boulevard de Shawinigan-Sud, Shawinigan-Sud, Quebec G9N 6T5, Canada</div>
+          <div>+1 819-536-2664 </div>
+          <div>https://www.aubergemoteldrakkar.ca/</div>
         </div>
 
         <div className="powered-by">
-          Powered by <span className="guesttouch">American Star Inn - Munday</span>
+          Powered by <span className="guesttouch">Auberge Motel Drakkar</span>
         </div>
       </div>
     </div>

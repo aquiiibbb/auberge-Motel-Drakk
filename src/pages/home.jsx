@@ -48,7 +48,7 @@ export default function Home() {
                             src={imf}
                             alt="Xpress Inn Logo"
                         />
-                        <h5 className="hotel-nam">American Star Inn - Munday</h5>
+                        <h5 className="hotel-nam">Auberge Motel Drakkar</h5>
 
                     </div>
 
