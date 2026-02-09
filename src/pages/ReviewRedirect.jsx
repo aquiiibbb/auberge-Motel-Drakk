@@ -10,7 +10,7 @@ const ReviewRedirect = () => {
   const [countdown, setCountdown] = useState(8);
 
   // Real links - replace with actual hotel IDs
-  const googleLink = 'https://www.google.com/travel/search?q=auberge%20motel%20drakkar&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C73249147%2C121522132&hl=en-IN&gl=in&ssta=1&ts=CAEaRwopEicyJTB4NGNjNjRiMGViZGNiNDE5ZDoweDM0MzBjZjlkYmI1ZGVhNmMSGhIUCgcI6g8QAhgJEgcI6g8QAhgKGAEyAhAA&qs=CAEyE0Nnb0k3TlQzMnR2enM1ZzBFQUU4AkIJCWzqXbudzzA0QgkJbOpdu53PMDQ&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwjQosTh0cySAxUAAAAAHQAAAAAQDA';
+  const googleLink = 'https://g.page/r/CWzqXbudzzA0EBM/review';
   const tripAdvisorLink = 'https://www.tripadvisor.in/Hotel_Review-g155034-d12295142-Reviews-Auberge_motel_drakkar-Shawinigan_Quebec.html';
 
   // Auto redirect countdown
